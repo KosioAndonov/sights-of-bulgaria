@@ -1,0 +1,5 @@
+<div *ngFor="let sight of allSights">
+    <h4 *ngIf="sight.name == currentName">{{sight.name}}</h4>
+    <img *ngIf="sight.name == currentName" src="{{sight.imageUrl}}"/>
+    <form *ngIf="sight.name == currentName">{{sight.description}}</form>
+</div>

@@ -1,0 +1,7 @@
+.section{
+            background-color: lightgray; 
+            padding: 1rem; 
+            box-sizing: border-box; 
+            border: 2px solid gray; 
+            position:static;
+}

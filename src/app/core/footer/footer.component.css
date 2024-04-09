@@ -1,0 +1,26 @@
+/* footer  */
+footer {
+    background:#358e4e;
+    margin-top: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 2040px;
+
+ 
+    left: 0;
+ 
+  
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.7em;
+    text-align: center;
+  }
+  
+  footer span {
+    font-size: 1.5em;
+  }
+  

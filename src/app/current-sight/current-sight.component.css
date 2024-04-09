@@ -1,0 +1,21 @@
+img {
+    border: 1px solid #0000006d;
+    border-radius: 8%;
+    padding: 15px;
+    width: 490px;
+    height: 300px;
+    text-align: center;
+  }
+
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 6, 4, 0.5);
+  }
+
+  h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  form{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }

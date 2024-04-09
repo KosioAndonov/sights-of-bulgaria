@@ -1,0 +1,10 @@
+<div class="main" >
+<div *ngFor="let sight of sightsArr">
+    <div class="part">
+   <h4>{{sight.name}}</h4> 
+   <img class="img" src={{sight.imageUrl}} />
+    <button class="descriptionBtn" [routerLink]="sight.name">Description</button>
+   <!-- <button>Click me</button> -->
+    </div>
+</div>
+</div>

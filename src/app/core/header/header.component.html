@@ -1,0 +1,52 @@
+<header>
+   
+    <div class="mini-navbar-wrap">
+        <div class="logo">
+            <img  src="https://img.redro.pl/fototapety/set-of-decorative-symbols-drawn-in-flat-style-on-white-background-a-bunch-of-grapes-a-bottle-of-water-attractions-dolls-roses-and-elements-for-tourist-guide-and-souvenirs-vector-illustration-400-219332162.jpg"/>
+        </div>
+      <div class="logo-wrap">
+        <p class="logo"><span class="logo">SIGHTS OF BULGARIA</span></p>
+      </div>
+    
+  
+      <div class="mini-navbar">
+        <ul *ngIf="!isLogged">
+          <li>
+            <a routerLink="/auth/login">LOGIN</a>
+          </li>
+          <li>
+            <a routerLink="/auth/register">REGISTER</a>
+          </li>
+        </ul>
+        
+
+        <ul *ngIf="isLogged">
+            
+        <li>
+            <a>{{name}}'s profile</a>
+          </li>
+          <li >
+           
+            <a (click)="logout()">LOGOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/all-sights">ALL SIGHTS</a>
+        </li>
+        <li>
+          <a routerLink="/new-review">NEW REVIEW</a>
+        </li>
+        <li>
+          <a routerLink="/community">COMMUNITY</a>
+        </li>
+        <li>
+          <a routerLink="/about">ABOUT</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
